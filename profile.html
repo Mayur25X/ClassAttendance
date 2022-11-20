@@ -10,10 +10,12 @@
     <!-- ===== ===== Custom Css ===== ===== -->
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="dropbox.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- ===== ===== Remix Font Icons Cdn ===== ===== -->
     <link rel="stylesheet" href="fonts/remixicon.css">
-   
+
 </head>
 
 <body>
@@ -42,44 +44,24 @@
             <!-- ===== ===== Work Contaienr ===== ===== -->
             <div class="work">
                 <!-- <h1 class="heading">work</h1> -->
+                <div>
+                    <label for="touch"><span class="drop">Select Year</span></label>
+                    <input type="checkbox" id="touch">
 
-
-                <h1 class="heading">Contact Information</h1>
-                <ul>
-                    <li class="phone">
-                        <h1 class="label">Phone:</h1>
-                        <span class="info">+11 234 567 890</span>
-                    </li>
-
-                    <li class="address">
-                        <h1 class="label">Address:</h1>
-                        <span class="info">S34 E 65th Street <br> New York, NY 10651-78 156-187-60</span>
-                    </li>
-
-                    <li class="email">
-                        <h1 class="label">E-mail:</h1>
-                        <span class="info">hello@rsmarquetech.com</span>
-                    </li>
-
-                    <li class="site">
-                        <h1 class="label">Site:</h1>
-                        <span class="info">www.rsmarquetech.com</span>
-                    </li>
-                </ul>
-                <div class="basic_info">
-                    <h1 class="heading">Basic Information</h1>
-                    <ul>
-                        <li class="birthday">
-                            <h1 class="label">Birthday:</h1>
-                            <span class="info">Dec 25, 2000</span>
-                        </li>
-
-                        <li class="sex">
-                            <h1 class="label">Gender:</h1>
-                            <span class="info">Male</span>
-                        </li>
+                    <ul class="slide">
+                        <li>1st Year<a href="/table1.html"><i class="fa-sharp fa-solid fa-eye icon"></i></a><a
+                                href="/folder/course.html"><i class="fa-solid fa-plus icon1"></i></a> </li>
+                        <li>2nd Year<a href="/table2.html"><i class="fa-sharp fa-solid fa-eye icon"></i></a><a
+                                href="/folder/course.html"><i class="fa-solid fa-plus icon1"></i></a></li>
+                        <li>3rd Year<a href="/table3.html"> <i class="fa-sharp fa-solid fa-eye icon"></i></a><a
+                                href="/folder/course.html"><i class="fa-solid fa-plus icon1"></i></a></li>
+                        <li>4rd Year<a href="/table4.html"> <i class="fa-sharp fa-solid fa-eye icon"></i></a><a
+                                href="/folder/course.html"><i class="fa-solid fa-plus icon1"></i></a></li>
                     </ul>
+
                 </div>
+
+
             </div>
         </section>
 
@@ -87,13 +69,14 @@
         <!-- ===== ===== User Details Sections ===== ===== -->
         <section class="userDetails card">
             <div class="userName">
-                <h1 class="name">Payal Meshram</h1><br>
+                <h1 class="name">Aprupa Pawar</h1><br>
                 <div class="map">
                     <i class="ri-map-pin-fill ri"></i>
                     <br>
-                    <p><span>HOD</span></p>
+                    <p><span id="post">Assistant Professor</span></p>
                 </div>
-                <p>Product Designer</p>
+                <br>
+                <p>Department: Computer Science and Engineering</p>
             </div>
 
 
@@ -114,16 +97,58 @@
                     </li>
                 </ul>
             </div>
-            <div class="btn-div">
-                <button class="btt" id="add">
-                    <span>Add Notes</span>
-                </button>
+
+
+
+            <!-- <h1 class="heading">Contact Information</h1> -->
+            <ul>
+                <!-- <li class="Date of Birth">
+                        <h1 class="label">Date of Birth:</h1>
+                        <span class="info"> </span>
+                    </li>
+                    <br> -->
+
+
+                <li class="Qualification">
+                    <h1 class="label space">Qualification:&nbsp; &nbsp; M.Tech CSE</h1>
+                    <!-- <div class="info">M.tech CSE </div> -->
+                </li>
+
+
+                <li class="email">
+                    <h1 class="label space">E-mail:&nbsp; &nbsp; aprupa.pawar@walchandsangli.ac.in</h1>
+                    <!-- <span class="info">aprupa.pawar@walchandsangli.ac.in</span> -->
+                </li>
+
+
+
+
+
+
+                <li class="Contact">
+                    <span class="number space">Contact Number:&nbsp; &nbsp; 9405857457</span>
+                    <!-- <h1 class="label"> </h1> -->
+                </li>
+            </ul>
+            <div class="basic_info">
+                <!-- <h1 class="heading">Basic Information</h1> -->
+                <ul>
+                    <!-- <li class="birthday">
+                            <h1 class="label">Birthday:</h1>
+                            <span class="info"></span>
+                        </li> -->
+
+                    <li class="sex">
+                        <span class="label"><strong>Gender:</strong> </span>
+                        <span class="info">Female</span>
+                    </li>
+                </ul>
             </div>
-                <div class="add"></div>
 
         </section>
     </div>
 
 </body>
 <script src="/folder/index2.js"></script>
+
 </html>
