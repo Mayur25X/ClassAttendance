@@ -32,8 +32,11 @@
       box-shadow: none;
     }
   
+    
+    
+  }
     /* ===== =====>>  Container Card Css Start  <<===== ===== */
-    .container .card {
+    /* .container .card {
       backdrop-filter: none;
     }
   
@@ -45,12 +48,12 @@
     .container::after {
       display: none;
     }
-  
+   */
     /* ===== =====>>  Header/Navbar Css Start  <<===== ===== */
     .container header {
       padding: 2.5rem;
     } 
-  }
+  
   
   @media screen and (max-width: 500px) {
     .container {
